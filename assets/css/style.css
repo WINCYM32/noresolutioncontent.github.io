@@ -1,0 +1,44 @@
+/* Type of default font family, kind of cursive or whatever */
+/* Bigger text because if it's seen in a : Phone (it's going to be so tiny), and the same way in laptop and tablet (in tablet is more tiny)*/
+/* font-family: 'Comic Sans MS', cursive, sans-serif; font-size: 16px; background-color: #9a9a9a; /* Light and dark background color for not hurt eyes */
+/* make the text bigger if you're on tablet or laptop reading:*/
+html {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Default font family */
+    font-size: 23px; /* Base font size */
+    background-color: #9a9a9a; /* Light background color */
+    color: #333; /* Dark text color for contrast */
+    margin: 0;
+    padding: 20px;
+}
+
+.cursive {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Cursive font family */
+    font-size: 1.2em; /* Slightly larger text size */
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+
+#warning {
+    font-size: 1.5em; /* Larger text size */
+    font-size: 20px;
+    color: rgb(204, 82, 82); /* Warning color */
+    margin-bottom: 20px;
+}
+
+.thoughts {
+    font-size: 1.5em; /* Larger text size */
+    margin-bottom: 20px;
+    text-decoration: line-through; /* Strikethrough effect */
+    /* Because those thoughts are reflections that i want to do between us */
+}
+
+/* I want to animate the box div when you scroll through it */
+.box {
+    animation: fadeIn 3s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
